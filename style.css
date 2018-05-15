@@ -1,14 +1,23 @@
+/* default setup for mobile first */
 body {
   display: grid;
   min-height: 100vh;
   min-width: 100%;
   /* 1 large top row with small footer row */
-  grid-template-rows: 1fr 50px;
-  /* 1 small left margin column, 1 larger main column */
-  grid-template-columns: 50px 1fr;
-  /* CSS grid property for assigning grid areas */
-  grid-template-areas: "sidebar  content"
-                       "footer  footer";
+  grid-template-rows: 1fr 90px;
+  grid-template-columns: 1fr;
+  grid-template-areas: "content"
+                        "footer";
+}
+
+/* larger screens */
+@media only screen and (min-width: 600px) {
+  body {
+    grid-template-columns: 40px 1fr;
+    /* CSS grid property for assigning grid areas */
+    grid-template-areas: "sidebar  content"
+                         "footer  footer";
+  }
 }
 
 .main {
