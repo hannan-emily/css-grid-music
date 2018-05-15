@@ -26,8 +26,28 @@ body {
 }
 
 .aside {
+  color: rgba(255,255,255,0.8);
   background-color: #7f8c8d;
   grid-area: sidebar;
+}
+
+/* hide sidebar icons on mobile, aside is only for larger screens */
+.aside i {
+  display: none;
+}
+
+/* show sidebar on larger screens with icons */
+@media only screen and (min-width: 600px) {
+  .aside {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .aside i {
+    display: block;
+    border: 1px solid red;
+  }
 }
 
 .footer {
