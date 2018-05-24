@@ -25,6 +25,38 @@ body {
   grid-area: content;
 }
 
+.main__header {
+  color: white;
+  display: grid;
+  grid-template-areas: "img"
+                      "dtls";
+}
+
+.main__header > .img {
+  grid-area: img;
+}
+
+.main__header > .details {
+  grid-area: dtls;
+}
+
+/* for mobile screens */
+@media screen and (max-width: 600px) {
+  .main__header {
+    justify-items: center;
+  }
+  .main__header > .details {
+    text-align: center;
+  }
+  .sm--hide {
+    display: none;
+  }
+  .img > img {
+    width: 150px;
+  }
+}
+
+
 .aside {
   color: rgba(255,255,255,0.8);
   background-color: #7f8c8d;
