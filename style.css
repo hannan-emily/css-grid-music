@@ -19,6 +19,28 @@ body {
     grid-template-areas: "sidebar  content"
                          "footer  footer";
   }
+  /* splits the main header into 2 columns on desktop */
+  .main__header {
+    grid-template-columns: 250px 1fr;
+    grid template areas: "img dtls"
+  }
+
+}
+
+/* for mobile screens, we hide certain elements*/
+@media screen and (max-width: 600px) {
+  .main__header {
+    justify-items: center;
+  }
+  .main__header > .details {
+    text-align: center;
+  }
+  .sm--hide {
+    display: none;
+  }
+  .img > img {
+    width: 150px;
+  }
 }
 
 .main {
@@ -40,23 +62,6 @@ body {
 .main__header > .details {
   grid-area: dtls;
 }
-
-/* for mobile screens */
-@media screen and (max-width: 600px) {
-  .main__header {
-    justify-items: center;
-  }
-  .main__header > .details {
-    text-align: center;
-  }
-  .sm--hide {
-    display: none;
-  }
-  .img > img {
-    width: 150px;
-  }
-}
-
 
 .aside {
   color: rgba(255,255,255,0.8);

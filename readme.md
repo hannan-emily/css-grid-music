@@ -2,8 +2,7 @@
 Learning the CSS Grid.
 
 ## Tutorial Source
-Tutorial source: https://medium.com/flexbox-and-grids/how-to-efficiently-master-the-css-grid-in-a-jiffy-585d0c213577)
-
+[Tutorial source link on Medium.com](https://medium.com/flexbox-and-grids/how-to-efficiently-master-the-css-grid-in-a-jiffy-585d0c213577)
 
 ## Process Screenshots
 Work in progress Screenshots:
