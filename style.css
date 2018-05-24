@@ -5,9 +5,10 @@ body {
   min-width: 100%;
   /* 1 large top row with small footer row */
   grid-template-rows: 1fr 90px;
-  grid-template-columns: 1fr;
-  grid-template-areas: "content"
-                        "footer";
+  grid-template-columns: 1fr 90px;
+  grid-template-areas: "content content content"
+                        "content content content"
+                        "footer content content";
 }
 
 /* larger screens */

@@ -1,2 +1,12 @@
-### Tutorial Source
+# CSS Grid Tutorial
+Learning the CSS Grid.
+
+## Tutorial Source
 Tutorial source: https://medium.com/flexbox-and-grids/how-to-efficiently-master-the-css-grid-in-a-jiffy-585d0c213577)
+
+
+## Process Screenshots
+Work in progress Screenshots:
+
+01:
+![Screenshot1](img/stopping-point-01.png)
