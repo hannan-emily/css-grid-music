@@ -9,3 +9,6 @@ Work in progress Screenshots:
 
 01:
 ![Screenshot1](img/stopping-point-01.png)
+
+02:
+![Screenshot1](img/stopping-point-02.png)

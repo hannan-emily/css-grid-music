@@ -8,6 +8,7 @@ body {
   grid-template-columns: 1fr;
   grid-template-areas: "content"
                         "footer";
+  font-family: 'Dosis', sans-serif;
 }
 
 .main {
@@ -54,6 +55,8 @@ img {
 /* song details */
 .main__body > div {
   display: flex;
+  color: white;
+  padding-left: 50px
 }
 
 /* song details */
@@ -78,7 +81,6 @@ img {
   /* show sidebar icons */
   .aside i {
     display: block;
-    border: 1px solid red;
   }
 
   /* splits the main header into 2 columns on desktop */
@@ -102,4 +104,10 @@ img {
   .img > img {
     width: 150px;
   }
+}
+
+
+/* extra styling for details */
+.details {
+  padding-left: 50px;
 }
